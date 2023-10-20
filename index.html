@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raman Store</title>
+    <link rel="icon" href="Raman store logo.png">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body{
+    background-color: white;
+
+}
+
+.navigationoption li {
+    display: inline-block;
+    margin-left:15px ;    
+}
+.navigationoption  li a{
+    text-decoration-color: white;
+    color: black;
+    text-decoration: none;
+}
+.homepageoptn{
+    position: var(right);
+    
+}
+nav{
+    background-color: rgb(192, 193, 232);
+    color: white;
+    display: flex;
+
+}
+#login{
+  
+    font-weight: bolder;
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(192, 193, 232);
+    display: flex;
+    margin: 10px 0 10px 0;
+
+}
+.loginbtn{
+    margin: auto;
+}
+#name{
+    background-color: rgb(61, 58, 58);
+}
+
+#name h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+#name h5{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0px;
+}
+.signupdiv{
+    height: 500px;
+    width: 500px;
+    border: 3px solid red;
+    margin: auto;
+    text-align: center;
+    background-color: yellowgreen;
+    display: flex;
+}
+.input{
+    background-color: azure;
+    border-radius: 5px;
+}
+.loginbtn{
+    color: white;
+    background-color:cornflowerblue ;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    height: 35px;
+    padding-left: 5px;
+ 
+}
+.createaccount{
+    color: white;
+    background-color:cornflowerblue ;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+.signupbtn{
+    color: white;
+    background-color:cornflowerblue ;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    height: 35px;
+    padding-left: 5px;
+}
+button a {
+    text-decoration: none;
+}
+.pagetitle {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.productclass {
+    height: 350px;
+    width: 350px;
+    display: block;
+
+}
+.productclass img {
+    height: 200px;
+    width: 200px;
+}
+.homepagebtn a button{
+    color: green;
+    background-color: rgb(255, 00, 00);
+    border-radius: 10px;
+    height: 30px;
+    /*display: block;*/
+    justify-content: end;
+
+}
+.homeoagebtn a{
+    display: inline-block;
+}
+.footer {
+    background-color: rgb(82, 80, 80);
+    text-align: center;
+}
+.newsletter{
+    background-color: rgb(82, 80, 80);
+    text-align: center;
+    padding-bottom: 5px;
+}
+.newsletter button{
+    border-radius: 10px;
+}
+.contactus{
+    background-color: rgb(82, 80, 80);
+    text-align: center;
+}
+.useremail{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+}
+.userpass{
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+}
+.form{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.cartnewsletter{
+    padding-bottom: 5px;
+    border-radius: 15px;
+    width: 400px;
+}
+.contactusemail{
+    padding: 2px;
+}
+.contactusphone{
+    padding: 2px;
+}
+
+.option li a{
+    text-decoration-color: white;
+    color: black;
+    text-decoration: none;
+}
+    </style>
+
+</head>
+<body>
+    <div id="name">    
+        <h1>RAMAN STORE</h1>
+        <h5>SHOP WITH PRIDE</h5></a>
+
+
+        </div>
+  <nav class="mainmenu">
+     <ul class="navigationoption">
+        <li class="loginb"><a href="login.html "><b>Login</b></a> </li>
+        <li class="cart"><a href="cart.html"><b>Cart</b></a> </li>
+        <li class="menscollection"><a href="menscollection.html"><b>Mens Collection</b></a></li>
+        <li class="womencollection"><a href="womenscollection.html"><b>Women Collection</b></a></li>
+        <li class="myaccount"><a href="myaccount.html"><b>My Account</b></a></li>
+        <li class="myorder"><a href="myorder.html"><b>My Order</b></a></li>
+        <li class="Signup"><a href="Signup.html"><b>Sign up</b></a></ul>
+    </ul>
+  </nav>
+   
+
+    <div >
+       
+        <form class="form">
+           <h1>Login Page</h1>
+           <b> Enter Email I'd:</b> 
+           <br>
+           <input type="email" placeholder="Enter your Email... " class="useremail" id="formelement">
+           <br>
+           <b>Enter Password :</b>
+           <br>
+           <input type="password" placeholder="Enter your password..." class="userpass" id="formelement">
+           <br>
+           <button type="submit" class= "loginbtn">Login</button>
+           <br>
+           
+           or
+           <br>
+          <b> Already have account</b>  &nbsp;
+           <button class="signupbtn"><a href="Signup.html" style="text-decoration: none;" >Sign up</a></button>
+        </form>
+    </div>
+    
+    <main>
+        <div class="productclass" id="productclass">
+            <img src="https://dresseskhazana.com/wp-content/uploads/2017/02/Colored-Kurta.jpg" class="productclassimage">
+            <h2>Knee Kurta with Payajama</h2>
+            Price: ₹<span style="color: red;text-decoration: line-through;">999.00</span>
+            <br>
+            New Price:  ₹499
+            <br>
+            <button class="buynow">Buy Now</button>
+            <button>Add to Cart</button>
+            
+      </div>
+    </main>
+    <div class="contactus">
+        <h1>Contact us</h1>
+        <p class="contactusphone">Phone: +919648470308</p>
+       
+        <p class="contactusemail">Email: rsingh24595@gmail.com</p>
+    </div>
+    <div class="newsletter">
+        <h1>SUBSCRIBE</h1>
+        <input type="email" placeholder="Enter your email to get the notification on latest collection" class="cartnewsletter">  &nbsp; &nbsp;
+        <button type="submit">Subscribe</button>
+    
+        <br>
+         <a href="https://wa.me/+919648470308?text=hello" style="text-decoration: none; color: white;">Click to chat with us<button> Whatsapp</button></a>
+    </div>
+    <footer class="footer">&copy ramanstore 2023</footer>
+    <script src="index.js"></script>
+</body>
+</html>
